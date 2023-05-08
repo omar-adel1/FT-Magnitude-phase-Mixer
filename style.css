@@ -1,9 +1,19 @@
-/* div.css-jet8i1.e1tzin5v0{
-    top: -70px;
-    left: -80px;
-} */
-div.css-1n76uvr.e1tzin5v0{
-    position: absolute;
-    top: 20px;
-    left: -20px;
+span.css-9ycgxx{
+    /* width: 200px; */
+    height: 1px;
+}
+small.css-1aehpvj {
+    opacity: 0;
+}
+section.css-po3vlj{
+    height: 50px;
+}
+button.css-1x8cf1d{
+    height: 30px;
+    position: relative;
+    /* right: 10px; */
+    line-height: 0.9;
+}
+div.st-bx{
+    height: 50px;
 }
