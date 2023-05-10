@@ -9,9 +9,22 @@ st.markdown("<h3>Image 1</h3>", unsafe_allow_html=True)
 static_picture, dynamic_pic, right_side = st.columns([2,2,4.5])
 with static_picture:
     pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
+    waiting_image = st.image("placeholder.png")
+    if pic_1_upload is not None:
+            # Remove the "waiting" image
+        waiting_image.empty()
+        # Read the image from the file uploader
+        image = Image.open(pic_1_upload)
+
+        # Resize the image to a width of 300 pixels
+        resized_image_1 = image.resize((200, 200))
+
+        # Display the resized image
+        st.image(resized_image_1)
 with dynamic_pic:
     component_1 = st.selectbox(label="", options=[
     'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
+    waiting_image_2 = st.image("placeholder.png")
 with right_side:
     mixer_outputs, selected_output=st.columns([1,2])
     with mixer_outputs:
@@ -24,9 +37,9 @@ with right_side:
         st.write("")
         st.markdown("<h4>Component 1</h4>", unsafe_allow_html=True)
     with image_choose1:
-        image_choose_1 = st.selectbox(label="", options=['Image 1', 'Image 2'])
+        image_choose_1 = st.selectbox(label="",key="image_compo_1", options=['Image 1', 'Image 2'])
     with slider_1:
-        selected_value_1 = st.slider("", 0, 100, step=1, format="%d%%")
+        selected_value_1 = st.slider("", 0, 100, step=1, value=50, key="slider_1", format="%d%%")
     empty_1, mag_phase_1 = st.columns([1,3])
     with empty_1:
         st.write("")
@@ -37,11 +50,41 @@ with right_side:
         st.write("")
         st.markdown("<h4>Component 2</h4>", unsafe_allow_html=True)
     with image_choose2:
-        image_choose_2 = st.selectbox(label="", options=['Image 2', 'Image 1'])
+        image_choose_2 = st.selectbox(label="", key="image_compo_2", options=['Image 1', 'Image 2'])
     with slider_2:
-        selected_value_2 = st.slider("", 0, 100, step=1, value = 5, format="%d%%")
+        selected_value_2 = st.slider("", 0, 100, step=1, value = 50, key="slider_2", format="%d%%")
     empty_2, mag_phase_2 = st.columns([1,3])
     with empty_2:
         st.write("")
     with mag_phase_2:
-        mode_2 = st.selectbox(label="", options=['Phase','Magnitude','Imaginary','Real','Uniform magnitude','Uniform phase'])
+        mode_2 = st.selectbox(label="",key="mode_2,phase", options=['Magnitude','Phase','Real','Imaginary','Uniform magnitude','Uniform phase'])
+st.markdown("<h3>Image 2</h3>", unsafe_allow_html=True)
+static_picture_2, dynamic_pic_2, right_side_2 = st.columns([2,2,4.5])
+with static_picture_2:
+    pic_2_upload = st.file_uploader("", type="jpg",key="2_photo", accept_multiple_files= False)
+    waiting_image_3 = st.image("placeholder.png")
+    if pic_2_upload is not None:
+            # Remove the "waiting" image
+        waiting_image_3.empty()
+        # Read the image from the file uploader
+        image = Image.open(pic_2_upload)
+
+        # Resize the image to a width of 300 pixels
+        resized_image_2 = image.resize((200, 200))
+
+        # Display the resized image
+        st.image(resized_image_2)
+with dynamic_pic_2:
+    component_2 = st.selectbox(label="",key="component_2", options=[
+    'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
+    waiting_image_4 = st.image("placeholder.png")
+with right_side_2:
+    output_1, output_2 = st.columns(2)
+    with output_1:
+        st.markdown("<h3>OutPut 1</h3>", unsafe_allow_html=True)
+        waiting_image_5 = st.image("placeholder.png")
+    with output_2:
+        st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
+        waiting_image_6 = st.image("placeholder.png")
+
+
