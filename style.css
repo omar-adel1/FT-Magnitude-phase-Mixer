@@ -18,8 +18,8 @@ div.st-bx{
     height: 50px;
 }
 div.block-container.css-k1ih3n.egzxvld4{
-    padding-top: 15px;
-    padding-left: 0;
+    padding-top: 0;
+    padding-left: 10px;
     padding-bottom: 0;
     padding-right: 0;
 }
@@ -61,4 +61,14 @@ div.st-bx{
 h3#output-1,
 h3#output-2{
     padding-left: 70px;
+}
+div.css-hwawiw.e1tzin5v2,
+div.css-1oy2v5l.e1tzin5v2{
+    border: 2px solid black;
+}
+div.st-b8{
+    width: 95%;
+}
+header.css-18ni7ap.e8zbici2{
+    height: 0;
 }

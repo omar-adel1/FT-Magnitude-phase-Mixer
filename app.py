@@ -5,26 +5,29 @@ st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="✅", layou
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 # Add the content inside the container
-st.markdown("<h3>Image 1</h3>", unsafe_allow_html=True)
-static_picture, dynamic_pic, right_side = st.columns([2,2,4.5])
-with static_picture:
-    pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
-    waiting_image = st.image("placeholder.png")
-    if pic_1_upload is not None:
-            # Remove the "waiting" image
-        waiting_image.empty()
-        # Read the image from the file uploader
-        image = Image.open(pic_1_upload)
+# static_picture, dynamic_pic, right_side = st.columns([2,2,4.5])
+left_side, right_side = st.columns([2,2.2])
+with left_side:
+    st.markdown("<h3>Image 1</h3>", unsafe_allow_html=True)
+    static_picture, dynamic_pic = st.columns(2)
+    with static_picture:
+        pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
+        waiting_image = st.image("placeholder.png")
+        if pic_1_upload is not None:
+                # Remove the "waiting" image
+            waiting_image.empty()
+            # Read the image from the file uploader
+            image = Image.open(pic_1_upload)
 
-        # Resize the image to a width of 300 pixels
-        resized_image_1 = image.resize((200, 200))
+            # Resize the image to a width of 300 pixels
+            resized_image_1 = image.resize((200, 200))
 
-        # Display the resized image
-        st.image(resized_image_1)
-with dynamic_pic:
-    component_1 = st.selectbox(label="", options=[
-    'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
-    waiting_image_2 = st.image("placeholder.png")
+            # Display the resized image
+            st.image(resized_image_1)
+    with dynamic_pic:
+        component_1 = st.selectbox(label="", options=[
+        'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
+        waiting_image_2 = st.image("placeholder.png")
 with right_side:
     mixer_outputs, selected_output=st.columns([1,2])
     with mixer_outputs:
@@ -58,26 +61,29 @@ with right_side:
         st.write("")
     with mag_phase_2:
         mode_2 = st.selectbox(label="",key="mode_2,phase", options=['Magnitude','Phase','Real','Imaginary','Uniform magnitude','Uniform phase'])
-st.markdown("<h3>Image 2</h3>", unsafe_allow_html=True)
-static_picture_2, dynamic_pic_2, right_side_2 = st.columns([2,2,4.5])
-with static_picture_2:
-    pic_2_upload = st.file_uploader("", type="jpg",key="2_photo", accept_multiple_files= False)
-    waiting_image_3 = st.image("placeholder.png")
-    if pic_2_upload is not None:
-            # Remove the "waiting" image
-        waiting_image_3.empty()
-        # Read the image from the file uploader
-        image = Image.open(pic_2_upload)
+# static_picture_2, dynamic_pic_2, right_side_2 = st.columns([2,2,4.5])
+left_side_2, right_side_2 = st.columns([2,2.2])
+with left_side_2:
+    st.markdown("<h3>Image 2</h3>", unsafe_allow_html=True)
+    static_picture_2, dynamic_pic_2 = st.columns(2)
+    with static_picture_2:
+        pic_2_upload = st.file_uploader("", type="jpg",key="2_photo", accept_multiple_files= False)
+        waiting_image_3 = st.image("placeholder.png")
+        if pic_2_upload is not None:
+                # Remove the "waiting" image
+            waiting_image_3.empty()
+            # Read the image from the file uploader
+            image = Image.open(pic_2_upload)
 
-        # Resize the image to a width of 300 pixels
-        resized_image_2 = image.resize((200, 200))
+            # Resize the image to a width of 300 pixels
+            resized_image_2 = image.resize((200, 200))
 
-        # Display the resized image
-        st.image(resized_image_2)
-with dynamic_pic_2:
-    component_2 = st.selectbox(label="",key="component_2", options=[
-    'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
-    waiting_image_4 = st.image("placeholder.png")
+            # Display the resized image
+            st.image(resized_image_2)
+    with dynamic_pic_2:
+        component_2 = st.selectbox(label="",key="component_2", options=[
+        'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
+        waiting_image_4 = st.image("placeholder.png")
 with right_side_2:
     output_1, output_2 = st.columns(2)
     with output_1:
