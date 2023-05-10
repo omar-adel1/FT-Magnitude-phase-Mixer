@@ -13,7 +13,7 @@ with left_side:
     with static_picture:
         pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
         # Load the "waiting" image and resize it
-        waiting_image_1 = Image.open("placeholder.png").resize((200, 200))
+        waiting_image_1 = Image.open("placeholder.png").resize((190, 190))
 
         # Display the resized image
         waiting_image_displayed_1 = st.image(waiting_image_1)
@@ -24,7 +24,7 @@ with left_side:
             image = Image.open(pic_1_upload)
 
             # Resize the image to a width of 300 pixels
-            resized_image_1 = image.resize((200, 200))
+            resized_image_1 = image.resize((190, 190))
 
             # Display the resized image
             st.image(resized_image_1)
@@ -32,7 +32,7 @@ with left_side:
         component_1 = st.selectbox(label="", options=[
         'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
         # Load the "waiting" image and resize it
-        waiting_image_2 = Image.open("placeholder.png").resize((200, 200))
+        waiting_image_2 = Image.open("placeholder.png").resize((190, 190))
 
         # Display the resized image
         st.image(waiting_image_2)
@@ -77,7 +77,7 @@ with left_side_2:
     with static_picture_2:
         pic_2_upload = st.file_uploader("", type="jpg",key="2_photo", accept_multiple_files= False)
         # Load the "waiting" image and resize it
-        waiting_image_3 = Image.open("placeholder.png").resize((200, 200))
+        waiting_image_3 = Image.open("placeholder.png").resize((190, 190))
 
         # Display the resized image
         waiting_image_displayed_3 = st.image(waiting_image_3)
@@ -88,7 +88,7 @@ with left_side_2:
             image = Image.open(pic_2_upload)
 
             # Resize the image to a width of 300 pixels
-            resized_image_2 = image.resize((200, 200))
+            resized_image_2 = image.resize((190, 190))
 
             # Display the resized image
             st.image(resized_image_2)
@@ -96,7 +96,7 @@ with left_side_2:
         component_2 = st.selectbox(label="",key="component_2", options=[
         'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
         # Load the "waiting" image and resize it
-        waiting_image_4 = Image.open("placeholder.png").resize((200, 200))
+        waiting_image_4 = Image.open("placeholder.png").resize((190, 190))
 
         # Display the resized image
         st.image(waiting_image_4)
