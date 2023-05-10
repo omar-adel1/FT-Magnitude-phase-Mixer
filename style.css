@@ -65,10 +65,19 @@ h3#output-2{
 div.css-hwawiw.e1tzin5v2,
 div.css-1oy2v5l.e1tzin5v2{
     border: 2px solid black;
+    border-radius: 10px;
 }
 div.st-b8{
     width: 95%;
 }
 header.css-18ni7ap.e8zbici2{
     height: 0;
+}
+h3#image-1,
+h3#image-2{
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+div.css-1v0mbdj.etr89bj1{
+    padding-bottom: 25px;
 }

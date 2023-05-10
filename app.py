@@ -13,13 +13,13 @@ with left_side:
     with static_picture:
         pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
         # Load the "waiting" image and resize it
-        waiting_image = Image.open("placeholder.png").resize((200, 200))
+        waiting_image_1 = Image.open("placeholder.png").resize((200, 200))
 
         # Display the resized image
-        st.image(waiting_image)
+        waiting_image_displayed_1 = st.image(waiting_image_1)
         if pic_1_upload is not None:
-                # Remove the "waiting" image
-            waiting_image.empty()
+            # Use an empty string to delete the image
+            waiting_image_displayed_1.empty()
             # Read the image from the file uploader
             image = Image.open(pic_1_upload)
 
@@ -80,10 +80,10 @@ with left_side_2:
         waiting_image_3 = Image.open("placeholder.png").resize((200, 200))
 
         # Display the resized image
-        st.image(waiting_image_3)
+        waiting_image_displayed_3 = st.image(waiting_image_3)
         if pic_2_upload is not None:
                 # Remove the "waiting" image
-            waiting_image_3.empty()
+            waiting_image_displayed_3.empty()
             # Read the image from the file uploader
             image = Image.open(pic_2_upload)
 
@@ -108,5 +108,3 @@ with right_side_2:
     with output_2:
         st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
         waiting_image_6 = st.image("placeholder.png")
-
-
