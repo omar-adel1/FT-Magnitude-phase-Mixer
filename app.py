@@ -12,7 +12,11 @@ with left_side:
     static_picture, dynamic_pic = st.columns(2)
     with static_picture:
         pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
-        waiting_image = st.image("placeholder.png")
+        # Load the "waiting" image and resize it
+        waiting_image = Image.open("placeholder.png").resize((200, 200))
+
+        # Display the resized image
+        st.image(waiting_image)
         if pic_1_upload is not None:
                 # Remove the "waiting" image
             waiting_image.empty()
@@ -27,7 +31,11 @@ with left_side:
     with dynamic_pic:
         component_1 = st.selectbox(label="", options=[
         'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
-        waiting_image_2 = st.image("placeholder.png")
+        # Load the "waiting" image and resize it
+        waiting_image_2 = Image.open("placeholder.png").resize((200, 200))
+
+        # Display the resized image
+        st.image(waiting_image_2)
 with right_side:
     mixer_outputs, selected_output=st.columns([1,2])
     with mixer_outputs:
@@ -68,7 +76,11 @@ with left_side_2:
     static_picture_2, dynamic_pic_2 = st.columns(2)
     with static_picture_2:
         pic_2_upload = st.file_uploader("", type="jpg",key="2_photo", accept_multiple_files= False)
-        waiting_image_3 = st.image("placeholder.png")
+        # Load the "waiting" image and resize it
+        waiting_image_3 = Image.open("placeholder.png").resize((200, 200))
+
+        # Display the resized image
+        st.image(waiting_image_3)
         if pic_2_upload is not None:
                 # Remove the "waiting" image
             waiting_image_3.empty()
@@ -83,7 +95,11 @@ with left_side_2:
     with dynamic_pic_2:
         component_2 = st.selectbox(label="",key="component_2", options=[
         'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
-        waiting_image_4 = st.image("placeholder.png")
+        # Load the "waiting" image and resize it
+        waiting_image_4 = Image.open("placeholder.png").resize((200, 200))
+
+        # Display the resized image
+        st.image(waiting_image_4)
 with right_side_2:
     output_1, output_2 = st.columns(2)
     with output_1:
