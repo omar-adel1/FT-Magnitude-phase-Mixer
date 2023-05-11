@@ -1,6 +1,7 @@
 import streamlit as st
 import logging as log
 from PIL import Image
+from Image_class import Images
 # Set page configuration
 st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="✅", layout="wide")
 with open('style.css') as f:
@@ -11,11 +12,11 @@ left_side, right_side = st.columns([2,2.2])
 with left_side:
     st.markdown("<h3>Image 1</h3>", unsafe_allow_html=True)
     static_picture, dynamic_pic = st.columns(2)
-    with static_picture:
+    with static_picture:   
         pic_1_upload = st.file_uploader("", type="jpg", accept_multiple_files= False)
         # Load the "waiting" image and resize it
-        waiting_image_1 = Image.open("placeholder.png").resize((190, 190))
-
+        waiting_image_1 = Image.open("placeholder.png").resize((190, 190))  #placeholder 
+        #waiting_image_1 = img(pic_1_upload) 
         # Display the resized image
         waiting_image_displayed_1 = st.image(waiting_image_1)
         if pic_1_upload is not None:
@@ -23,10 +24,12 @@ with left_side:
             waiting_image_displayed_1.empty()
             # Read the image from the file uploader
             image = Image.open(pic_1_upload)
-
+            #image = Images(pic_1_upload)
+            
+           # image = img(pic_1_upload)
             # Resize the image to a width of 300 pixels
             resized_image_1 = image.resize((190, 190))
-
+            #resized_image_1 = image.image_read
             # Display the resized image
             st.image(resized_image_1)
     with dynamic_pic:
@@ -34,7 +37,7 @@ with left_side:
         'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
         # Load the "waiting" image and resize it
         waiting_image_2 = Image.open("placeholder.png").resize((190, 190))
-
+        
         # Display the resized image
         st.image(waiting_image_2)
 with right_side:
