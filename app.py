@@ -1,4 +1,5 @@
 import streamlit as st
+import logging as log
 from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="✅", layout="wide")
