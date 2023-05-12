@@ -1,9 +1,17 @@
+    
 import streamlit as st
-import logging as log
+import logging 
 from PIL import Image
 from Image_class import Images
 # Set page configuration
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s -Logger name: %(name)s- Function: %(funcName)s - Line number : %(lineno)d - Level Name : %(levelname)s - massege : %(message)s ')
+file_handler = logging.FileHandler('design.log',mode='w')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
 def main():
+    logger.warning("__________Streamlit rerun__________")
     st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="🎨", layout="wide")
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -23,6 +31,7 @@ def main():
             waiting_image_displayed_1 = st.image(waiting_image_1)
             if pic_1_upload is not None:
                 # Use an empty string to delete the image
+                logger.info("Picture 1 Uploaded")
                 waiting_image_displayed_1.empty()
                 # Read the image from the file uploader
                 # image = Image.open(pic_1_upload)
@@ -38,10 +47,19 @@ def main():
             'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
             # Load the "waiting" image and resize it
             waiting_image_2 = Image.open("placeholder.png").resize((190, 190))
+            # if image.imagepath is not None:
+            #     component = image.get_component(component_1)
+            #     component_image = Image.fromarray(component)
+            # else:
+            #     component_image = waiting_image_2
+            # #    waiting_image_2 = image.get_component(component_1)
+            # # Display the resized image
             waiting_image_displayed_2 = st.image(waiting_image_2)
+            logger.info("Picture 1 Component selected is:{}".format(component_1))
             if pic_1_upload is not None:
                 waiting_image_displayed_2.empty()
                 image_1.display_component(component_1)
+                logger.info("Image 1 component displayed")
     with right_side:
         mixer_outputs, selected_output=st.columns([1,2])
         with mixer_outputs:
@@ -89,6 +107,7 @@ def main():
             waiting_image_displayed_3 = st.image(waiting_image_3)
             if pic_2_upload is not None:
                     # Remove the "waiting" image
+                logger.info("Picture 2 Uploaded")
                 waiting_image_displayed_3.empty()
                 image_2 = Images(pic_2_upload)
                 st.image(image_2.image_read)
@@ -99,9 +118,11 @@ def main():
             waiting_image_4 = Image.open("placeholder.png").resize((190, 190))
             # Display the resized image
             waiting_image_displayed_4 = st.image(waiting_image_4)
+            logger.info("Picture 2 Component selected is:{}".format(component_1))
             if pic_2_upload is not None:
                 waiting_image_displayed_4.empty()
                 image_2.display_component(component_2)
+                logger.info("Image 2 component displayed")
     with right_side_2:
         output_1, output_2 = st.columns(2)
         with output_1:
@@ -110,6 +131,7 @@ def main():
             waiting_image_displayed_5 = st.image(waiting_image_5)
             if mixer_components_1 == "Output 1" and pic_2_upload is not None and pic_1_upload is not None:
                 waiting_image_displayed_5.empty()
+                logger.info("Mixer of component 1 and component 2 being displayed in Output 1")
                 if image_choose_1 != image_choose_2:
                     output_1_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 1":
@@ -118,12 +140,14 @@ def main():
                     output_1_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 if output_1_image is not None:
                     st.image(output_1_image, clamp= True)
+                logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))
         with output_2:
             st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
             waiting_image_6 = Image.open("placeholder.png").resize((190, 190))
             waiting_image_displayed_6 = st.image(waiting_image_6)
             if mixer_components_1 == "Output 2" and pic_2_upload is not None and pic_1_upload is not None:
                 waiting_image_displayed_6.empty()
+                logger.info("Mixer of component 1 and component 2 being displayed in Output 2")
                 if image_choose_1 != image_choose_2:
                     output_2_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 1":
@@ -131,4 +155,6 @@ def main():
                 elif image_choose_1 == image_choose_2 == "Image 2":
                     output_2_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 if output_2_image is not None:
-                    st.image(output_2_image, clamp= True)
+                        
+                  st.image(output_2_image, clamp= True)
+                logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))

@@ -5,7 +5,7 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s -Logger name: %(name)s- Function: %(funcName)s - Line number : %(lineno)d - Level Name : %(levelname)s - massege : %(message)s ')
-file_handler = logging.FileHandler('image_class.log')
+file_handler = logging.FileHandler('image_class.log',mode='w')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 class Images:
