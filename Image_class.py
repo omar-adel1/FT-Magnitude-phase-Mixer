@@ -140,13 +140,13 @@ class Images:
             st.image(imaginary_normalized, clamp=True)
             logger.info(' component {} has been displayed '.format(component))
 
-    
+    @staticmethod
     def inverse_fourier_image(image):
         """
         This function performs the inverse Fourier transform on a given image using NumPy's ifft2 function,
         and returns the real part of the resulting array.
         """
-        Inverse_fourier_image = np.real(np.fft.ifft2(image))  
+        Inverse_fourier_image = np.real(np.fft.ifft2(np.fft.ifftshift(image))) 
         logger.info('inversefourier has been called')
         return Inverse_fourier_image
     
@@ -248,7 +248,7 @@ class Images:
            st.warning("Invalid Combination")
            logger.warning(' Invalid Combination ')
            return
-        Image_combined = np.real(np.fft.ifft2(np.fft.ifftshift(Mixed_FT)))
+        Image_combined = Images.inverse_fourier_image(Mixed_FT)
         Image_combined = cv2.normalize(Image_combined, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
         logger.info(' image combined succesfully ')
         # Image_combined = np.real(np.fft.ifft2(Mixed_FT))
