@@ -6,25 +6,40 @@ import logging
 class Images:
     
     def __init__(self,image_path = None) :
-        
-        self.imagepath = image_path 
+        """
+        Initializes an object of the class and sets the input image path if it is provided.
+        If an image path is provided, the function reads the image from the provided path, 
+        resizes it to 190x190 pixels using interpolation, and then calculates the Fourier 
+        transform of the resized image. The Fourier transform components, i.e., magnitude, 
+        phase, real, and imaginary parts of the Fourier transform are calculated and stored 
+        as instance variables of the object. The magnitude is computed using a logarithmic 
+        transformation to enhance visibility. The uniform magnitude and phase are set to ones 
+        and zeros, respectively.
+        """
+        self.imagepath = image_path
         self.is_first_image = False
+    
         if image_path is not None:
-            
-            self.image_read = cv2.imdecode(np.frombuffer(image_path.read(), np.uint8),cv2.IMREAD_GRAYSCALE)
+            # read image from the provided path and convert it to grayscale
+            self.image_read = cv2.imdecode(np.frombuffer(image_path.read(), np.uint8), cv2.IMREAD_GRAYSCALE)
             self.img_shape = self.image_read.shape
             
+            # resize the image to 190x190 pixels using interpolation
             self.image_read = cv2.resize(self.image_read, (190, 190), interpolation=cv2.INTER_AREA)
             
-              #Calculating Fourier transform of image 
-            #All components are 2d matrices of the size which is resized (190,190)
+            # calculate Fourier transform of the resized image
             self.ft = np.fft.fft2(self.image_read)
             self.fourier_shift = np.fft.fftshift(self.ft)
-            self.magnitude =np.multiply( np.log10(1+np.abs(self.fourier_shift)),20)  #Logarithmic Transformation
-           # self.magnitude = np.abs(self.fourier_shift)
+            
+            # compute magnitude using logarithmic transformation
+            self.magnitude = np.multiply(np.log10(1+np.abs(self.fourier_shift)), 20)
+            
+            # calculate phase, real, and imaginary parts of the Fourier transform
             self.phase = np.angle(self.fourier_shift)
             self.real = np.real(self.fourier_shift)
             self.imaginary = np.imag(self.fourier_shift)
+            
+            # set uniform magnitude to ones and uniform phase to zeros
             self.uniform_magnitude = np.ones_like(self.magnitude)
             self.uniform_phase = np.zeros_like(self.phase)
              
@@ -50,81 +65,92 @@ class Images:
                 st.warning("Two images not same size")
                 return False
             return True
-        
-    """
-    Function get_component :
-    Input : component : string
-    
-    returns----> normalized 2d matrix representing one of the components
-    
-    """  
       
     def get_component(self,component) :
-       # self.image_read = self.image_read / np.max(self.image_read)
+        """
+        Returns the specified Fourier component of the image.
         
+        Args:
+            component: a string indicating the Fourier component to retrieve. Possible values are:
+                "Magnitude": the magnitude of the Fourier transform.
+                "Phase": the phase of the Fourier transform.
+                "Real": the real part of the Fourier transform.
+                "Imaginary": the imaginary part of the Fourier transform.
+                "Uniform magnitude": the Fourier transform with a uniform magnitude of 1.
+                "Uniform phase": the Fourier transform with a uniform phase of 0.
+        
+        Returns:
+            The specified Fourier component of the image.
+        """
         if component == "Magnitude" :
-            # magnitude_normalized = cv2.normalize(self.magnitude, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            # return magnitude_normalized
-            return np.abs(self.fourier_shift)
-            # return self.magnitude
-        
+            return np.abs(self.fourier_shift)        
         elif component == "Phase" :
-            # phase_normalized = cv2.normalize(self.phase, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            # return phase_normalized
             return self.phase
-        
         elif component == "Real" :
-            # real_normalized = cv2.normalize(self.real, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            # return real_normalized 
             return self.real
-        
-        elif component == "Imaginary" :
-            # imaginary_normalized = cv2.normalize(self.imaginary, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            # return imaginary_normalized    
+        elif component == "Imaginary" :  
             return self.imaginary
-        
         elif component == "Uniform magnitude" :
             return self.uniform_magnitude
-        
         elif component == "Uniform phase" :
             return self.uniform_phase
             
-    def display_component(self,component) :
-       # self.image_read = self.image_read / np.max(self.image_read)
-        
-        
-        if component == "FT Magnitude" :
+    def display_component(self,component):
+        """
+        Displays the selected Fourier Transform (FT) component of an image.
+
+        Args:
+            component (str): The name of the component to display. Valid options are:
+                - "FT Magnitude"
+                - "FT Phase"
+                - "FT Real component"
+                - "FT Imaginary component"
+
+        Returns:
+            None
+        """
+        # Normalize the selected component using OpenCV's normalize function
+        if component == "FT Magnitude":
             magnitude_normalized = cv2.normalize(self.magnitude, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
             st.image(magnitude_normalized, clamp=True)
-            #st.image( self.magnitude,clamp=True)
-        
-        elif component == "FT Phase" :
+        elif component == "FT Phase":
             phase_normalized = cv2.normalize(self.phase, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
             st.image(phase_normalized, clamp=True)
-           # st.image( self.phase,clamp=True)
-        
-        elif component == "FT Real component" :
-            
+        elif component == "FT Real component":
             real_normalized = cv2.normalize(self.real, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
             st.image(real_normalized, clamp=True)
-           # st.image( self.real,clamp=True)
-        
-        elif component == "FT Imaginary component" :
-            
-             imaginary_normalized = cv2.normalize(self.imaginary, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-             st.image(imaginary_normalized, clamp=True)
-          #  st.image( self.imaginary , clamp=True )  
+        elif component == "FT Imaginary component":
+            imaginary_normalized = cv2.normalize(self.imaginary, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+            st.image(imaginary_normalized, clamp=True)
 
     
     def inverse_fourier_image(image):
+        """
+        This function performs the inverse Fourier transform on a given image using NumPy's ifft2 function,
+        and returns the real part of the resulting array.
+        """
         Inverse_fourier_image = np.real(np.fft.ifft2(image))  
         
         return Inverse_fourier_image
     
 
     @staticmethod
-    def Mix_Images(img_1 :'Images' ,img_2 :'Images', component_image_1 : str,component_image_2 :str,Mix_ratio_1: float,Mix_ratio_2:float) :
+    def Mix_Images(img_1 :'Images' ,img_2 :'Images', component_image_1 : str,component_image_2 :str,Mix_ratio_1: float,Mix_ratio_2:float):
+        """
+        Mixes two images by combining their Fourier domain components based on user-specified ratios and components.
         
+        Parameters:
+        img_1 (Images): The first image object.
+        img_2 (Images): The second image object.
+        component_image_1 (str): The component of the first image to use in mixing.
+        component_image_2 (str): The component of the second image to use in mixing.
+        Mix_ratio_1 (float): The ratio of component_image_1 to mix.
+        Mix_ratio_2 (float): The ratio of component_image_2 to mix.
+        
+        Returns:
+        Mixed_img (np.ndarray): The mixed image as a numpy array.
+        """
+
         #Get fourier parameters for each image 
         Mag_img1 = img_1.get_component("Magnitude")
         Phase_img1 = img_1.get_component("Phase")
@@ -142,7 +168,7 @@ class Images:
         
         Mix_ratio_1 = Mix_ratio_1/100
         Mix_ratio_2 = Mix_ratio_2/100
-        print(Mix_ratio_1)
+        # Mix the components based on user-specified ratios and components
         if component_image_1 == "Magnitude"  and component_image_2 == "Phase":
             Mixed_Mag = Mag_img1*Mix_ratio_1 + Mag_img2*(1-Mix_ratio_1)
             Mixed_Phase = Phase_img2*Mix_ratio_2 + Phase_img1*(1-Mix_ratio_2)
