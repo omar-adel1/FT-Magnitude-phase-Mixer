@@ -26,8 +26,8 @@ def main():
                 waiting_image_displayed_1.empty()
                 # Read the image from the file uploader
                 # image = Image.open(pic_1_upload)
-                image = Images(pic_1_upload,1)
-                st.image(image.image_read)
+                image_1 = Images(pic_1_upload)
+                st.image(image_1.image_read)
                 
                 # resized_image_1 = Image.fromarray(image.image_read)
                 # resized_image_1 = image.resize((190, 190))
@@ -48,7 +48,7 @@ def main():
             waiting_image_displayed_2 = st.image(waiting_image_2)
             if pic_1_upload is not None:
                 waiting_image_displayed_2.empty()
-                image.display_component(component_1)
+                image_1.display_component(component_1)
     with right_side:
         mixer_outputs, selected_output=st.columns([1,2])
         with mixer_outputs:
@@ -74,14 +74,14 @@ def main():
             st.write("")
             st.markdown("<h4>Component 2</h4>", unsafe_allow_html=True)
         with image_choose2:
-            image_choose_2 = st.selectbox(label="", key="image_compo_2", options=['Image 1', 'Image 2'])
+            image_choose_2 = st.selectbox(label="", key="image_compo_2", options=['Image 2', 'Image 1'])
         with slider_2:
             selected_value_2 = st.slider("", 0, 100, step=1, value = 50, key="slider_2", format="%d%%")
         empty_2, mag_phase_2 = st.columns([1,3])
         with empty_2:
             st.write("")
         with mag_phase_2:
-            mode_2 = st.selectbox(label="",key="mode_2,phase", options=['Magnitude','Phase','Real','Imaginary','Uniform magnitude','Uniform phase'])
+            mode_2 = st.selectbox(label="",key="mode_2,phase", options=['Phase','Magnitude','Real','Imaginary','Uniform magnitude','Uniform phase'])
     # static_picture_2, dynamic_pic_2, right_side_2 = st.columns([2,2,4.5])
     left_side_2, right_side_2 = st.columns([2,2.2])
     with left_side_2:
@@ -97,8 +97,8 @@ def main():
             if pic_2_upload is not None:
                     # Remove the "waiting" image
                 waiting_image_displayed_3.empty()
-                image = Images(pic_2_upload,2)
-                st.image(image.image_read)
+                image_2 = Images(pic_2_upload)
+                st.image(image_2.image_read)
         with dynamic_pic_2:
             component_2 = st.selectbox(label="",key="component_2", options=[
             'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
@@ -108,12 +108,32 @@ def main():
             waiting_image_displayed_4 = st.image(waiting_image_4)
             if pic_2_upload is not None:
                 waiting_image_displayed_4.empty()
-                image.display_component(component_2)
+                image_2.display_component(component_2)
     with right_side_2:
         output_1, output_2 = st.columns(2)
         with output_1:
             st.markdown("<h3>OutPut 1</h3>", unsafe_allow_html=True)
-            waiting_image_5 = st.image("placeholder.png")
+            waiting_image_5 = Image.open("placeholder.png").resize((190, 190))
+            waiting_image_displayed_5 = st.image(waiting_image_5)
+            if mixer_components_1 == "Output 1" and pic_2_upload is not None and pic_1_upload is not None:
+                waiting_image_displayed_5.empty()
+                if image_choose_1 != image_choose_2:
+                    output_1_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+                elif image_choose_1 == image_choose_2 == "Image 1":
+                    output_1_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
+                elif image_choose_1 == image_choose_2 == "Image 2":
+                    output_1_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+                st.image(output_1_image, clamp= True)
         with output_2:
             st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
-            waiting_image_6 = st.image("placeholder.png")
+            waiting_image_6 = Image.open("placeholder.png").resize((190, 190))
+            waiting_image_displayed_6 = st.image(waiting_image_6)
+            if mixer_components_1 == "Output 2" and pic_2_upload is not None and pic_1_upload is not None:
+                waiting_image_displayed_6.empty()
+                if image_choose_1 != image_choose_2:
+                    output_2_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+                elif image_choose_1 == image_choose_2 == "Image 1":
+                    output_2_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
+                elif image_choose_1 == image_choose_2 == "Image 2":
+                    output_2_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+                st.image(output_2_image, clamp= True)

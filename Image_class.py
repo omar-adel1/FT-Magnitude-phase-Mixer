@@ -63,28 +63,30 @@ class Images:
        # self.image_read = self.image_read / np.max(self.image_read)
         
         if component == "Magnitude" :
-            magnitude_normalized = cv2.normalize(self.magnitude, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            return magnitude_normalized
+            # magnitude_normalized = cv2.normalize(self.magnitude, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+            # return magnitude_normalized
+            return self.magnitude
         
         elif component == "Phase" :
-            phase_normalized = cv2.normalize(self.phase, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            return phase_normalized
+            # phase_normalized = cv2.normalize(self.phase, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+            # return phase_normalized
+            return self.phase
         
         elif component == "Real" :
-            real_normalized = cv2.normalize(self.real, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            return real_normalized 
+            # real_normalized = cv2.normalize(self.real, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+            # return real_normalized 
+            return self.real
         
         elif component == "Imaginary" :
-            imaginary_normalized = cv2.normalize(self.imaginary, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
-            return imaginary_normalized    
+            # imaginary_normalized = cv2.normalize(self.imaginary, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+            # return imaginary_normalized    
+            return self.imaginary
         
         elif component == "Uniform magnitude" :
             return self.uniform_magnitude
         
         elif component == "Uniform phase" :
             return self.uniform_phase
-        
-        
             
     def display_component(self,component) :
        # self.image_read = self.image_read / np.max(self.image_read)
@@ -139,7 +141,7 @@ class Images:
         
         Mix_ratio_1 = Mix_ratio_1/100
         Mix_ratio_2 = Mix_ratio_2/100
-        
+        print(Mix_ratio_1)
         if component_image_1 == "Magnitude"  and component_image_2 == "Phase":
             Mixed_Mag = Mag_img1*Mix_ratio_1 + Mag_img2*(1-Mix_ratio_1)
             Mixed_Phase = Phase_img2*Mix_ratio_2 + Phase_img1*(1-Mix_ratio_2)
@@ -191,23 +193,9 @@ class Images:
         else:
            st.warning("Invalid Combination")
            return
-        Image_combined = np.real(np.fft.ifft2(Mixed_FT))
-        return Image_combined
-        
-                 
-              
-          
-            
-    
-        
-        
-          
-    
+        Image_combined = np.real(np.fft.ifft2(np.fft.ifftshift(Mixed_FT)))
+        Image_combined = cv2.normalize(Image_combined, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
 
-        
-  
-            
-        
-        
-        
-        
+        # Image_combined = np.real(np.fft.ifft2(Mixed_FT))
+        return Image_combined
+    
