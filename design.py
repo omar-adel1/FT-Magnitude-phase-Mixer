@@ -4,7 +4,7 @@ from PIL import Image
 from Image_class import Images
 # Set page configuration
 def main():
-    st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="✅", layout="wide")
+    st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="🎨", layout="wide")
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
     # Add the content inside the container
@@ -38,13 +38,6 @@ def main():
             'FT Magnitude', 'FT Phase', 'FT Real component', 'FT Imaginary component'])
             # Load the "waiting" image and resize it
             waiting_image_2 = Image.open("placeholder.png").resize((190, 190))
-            # if image.imagepath is not None:
-            #     component = image.get_component(component_1)
-            #     component_image = Image.fromarray(component)
-            # else:
-            #     component_image = waiting_image_2
-            # #    waiting_image_2 = image.get_component(component_1)
-            # # Display the resized image
             waiting_image_displayed_2 = st.image(waiting_image_2)
             if pic_1_upload is not None:
                 waiting_image_displayed_2.empty()
@@ -138,5 +131,4 @@ def main():
                 elif image_choose_1 == image_choose_2 == "Image 2":
                     output_2_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 if output_2_image is not None:
-                        
-                  st.image(output_2_image, clamp= True)
+                    st.image(output_2_image, clamp= True)
