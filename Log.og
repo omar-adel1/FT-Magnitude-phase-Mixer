@@ -1,0 +1,6 @@
+2023-05-12 20:43:23,929 - ERROR- 16 - error
+Traceback (most recent call last):
+  File "g:\university\Junior\DSP\Tasks\Task4\FT-Magnitude-phase-Mixer\Logging.py", line 14, in <module>
+    1/0
+ZeroDivisionError: division by zero
+2023-05-12 20:43:23,929 - INFO- 22 - test DSP
