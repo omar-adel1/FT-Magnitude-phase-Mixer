@@ -10,7 +10,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 class Images:
     
-    def __init__(self,image_path = None) :
+    def __init__(self,image_path = None):
         """
         Initializes an object of the class and sets the input image path if it is provided.
         If an image path is provided, the function reads the image from the provided path, 
@@ -64,7 +64,7 @@ class Images:
     
         
     @staticmethod
-    def check_size(image_1,image_2) :
+    def check_size(image_1,image_2):
         if image_1 and image_2 :
             
             if image_1.img_shape != image_2.img_shape:
@@ -73,7 +73,7 @@ class Images:
                 return False
             return True
       
-    def get_component(self,component) :
+    def get_component(self,component):
         """
         Returns the specified Fourier component of the image.
         
@@ -89,22 +89,22 @@ class Images:
         Returns:
             The specified Fourier component of the image.
         """
-        if component == "Magnitude" :
+        if component == "Magnitude":
             logger.info(' component {} has been called '.format(component))
             return np.abs(self.fourier_shift)        
-        elif component == "Phase" :
+        elif component == "Phase":
             logger.info(' component {} has been called '.format(component))
             return self.phase
-        elif component == "Real" :
+        elif component == "Real":
             logger.info(' component {} has been called '.format(component))
             return self.real
-        elif component == "Imaginary" :  
+        elif component == "Imaginary":  
             logger.info(' component {} has been called '.format(component))
             return self.imaginary
-        elif component == "Uniform magnitude" :
+        elif component == "Uniform magnitude":
             logger.info(' component {} has been called '.format(component))
             return self.uniform_magnitude
-        elif component == "Uniform phase" :
+        elif component == "Uniform phase":
             logger.info(' component {} has been called '.format(component))
             return self.uniform_phase
             
@@ -189,12 +189,12 @@ class Images:
         if component_image_1 == "Magnitude"  and component_image_2 == "Phase":
             Mixed_Mag = Mag_img1*Mix_ratio_1 + Mag_img2*(1-Mix_ratio_1)
             Mixed_Phase = Phase_img2*Mix_ratio_2 + Phase_img1*(1-Mix_ratio_2)
-            Mixed_FT = np.multiply(Mixed_Mag , np.exp(1j * Mixed_Phase ) )
+            Mixed_FT = np.multiply(Mixed_Mag , np.exp(1j * Mixed_Phase ))
             logger.info(' component1 : {} and component2: {}  has been selected '.format(component_image_1,component_image_2))
         elif component_image_1 == "Phase" and component_image_2 == "Magnitude" :
             Mixed_Phase = Phase_img1*Mix_ratio_1 + Phase_img2*(1-Mix_ratio_1)
             Mixed_Mag = Mag_img2*Mix_ratio_2 + Mag_img1*(1-Mix_ratio_2)
-            Mixed_FT = np.multiply(Mixed_Mag , np.exp(1j * Mixed_Phase) )
+            Mixed_FT = np.multiply(Mixed_Mag , np.exp(1j * Mixed_Phase))
             logger.info(' component1 : {} and component2: {}  has been selected '.format(component_image_1,component_image_2))
         elif component_image_1 == "Real" and component_image_2 == "Imaginary"   :
             New_real = Real_img1*Mix_ratio_1 + Real_img2*(1-Mix_ratio_1)
