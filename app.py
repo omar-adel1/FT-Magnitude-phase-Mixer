@@ -9,7 +9,7 @@ with open('style.css') as f:
 # Add the content inside the container
 # static_picture, dynamic_pic, right_side = st.columns([2,2,4.5])
 left_side, right_side = st.columns([2,2.2])
-image = Images()
+
 with left_side:
     st.markdown("<h3>Image 1</h3>", unsafe_allow_html=True)
     static_picture, dynamic_pic = st.columns(2)

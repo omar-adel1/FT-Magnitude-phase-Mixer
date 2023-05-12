@@ -8,6 +8,7 @@ class Images:
     def __init__(self,image_path = None) :
         
         self.imagepath = image_path 
+        self.is_first_image = True
         if image_path is not None:
             
             self.image_read = cv2.imdecode(np.frombuffer(image_path.read(), np.uint8),cv2.IMREAD_GRAYSCALE)
@@ -24,18 +25,25 @@ class Images:
             self.uniform_magnitude = np.ones_like(self.magnitude)
             self.uniform_phase = np.zeros_like(self.phase)
     """
+    Function which checks size of the two images
      Check the size of the second image
      check_size(img1, image_path=file2)          
-    """          
-    def check_size(self,image_path) : 
-        image_read = cv2.imdecode(np.frombuffer(image_path.read(), np.uint8),cv2.IMREAD_GRAYSCALE)
-        image_read = cv2.resize(self.image_read,(190,190))
-        if image_read.shape != self.image_read:
-            st.warning("The two images have different sizes")
-            return False
-        return True
+    """ 
     
+             
+    def set_second_image(self):
+        self.is_first_image = False
     
+        
+    @staticmethod
+    def check_size(image_1,image_2) :
+        if image_1 and image_2 :
+            
+            if image_1.img_shape != image_2.img_shape:
+                st.warning("Two images not same size")
+                return False
+            return True
+        
     """      
     def get_component(self,component) :
         self.image_read = self.image_read / np.max(self.image_read)
@@ -81,10 +89,12 @@ class Images:
           #  st.image( self.imaginary , clamp=True )  
 
 
-"""           
+
+
+"""        
 class ImageProcessor :
     
-    def __init__(self) :
+    def __init__(self,image1,image2) :
         self.image_1_component = None
         self.image_2_component = None
         self.Mixing_ratio = None
@@ -93,8 +103,8 @@ class ImageProcessor :
         self.image_1 = None
         self.image_2 = None
             
-"""
-        
+
+"""        
         
   
             
