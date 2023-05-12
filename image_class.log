@@ -1956,3 +1956,660 @@
 2023-05-13 00:00:05,292 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
 2023-05-13 00:00:05,292 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
 2023-05-13 00:00:05,292 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,306 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:07,306 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:07,306 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:07,316 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:07,316 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:07,316 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:07,326 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,326 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,326 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,366 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:07,366 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:07,366 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:07,371 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:07,371 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:07,371 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:07,380 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,380 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,380 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:07,386 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:07,386 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:07,386 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:07,387 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:07,387 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:07,387 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:07,387 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:07,387 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:07,387 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:07,388 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:07,388 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:07,388 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:07,389 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:07,391 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:07,391 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:07,391 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:07,392 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:07,392 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:07,392 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:07,393 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:07,393 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:07,393 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:07,393 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:07,393 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:07,393 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:07,394 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:07,394 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:07,394 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:07,398 -Logger name: Image_class- Function: Mix_Images - Line number : 193 - Level Name : INFO - massege :  component1 : Magnitude and component2: Phase  has been selected  
+2023-05-13 00:00:07,398 -Logger name: Image_class- Function: Mix_Images - Line number : 193 - Level Name : INFO - massege :  component1 : Magnitude and component2: Phase  has been selected  
+2023-05-13 00:00:07,398 -Logger name: Image_class- Function: Mix_Images - Line number : 193 - Level Name : INFO - massege :  component1 : Magnitude and component2: Phase  has been selected  
+2023-05-13 00:00:07,403 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:07,403 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:07,403 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:07,423 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:07,423 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:07,423 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:09,895 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:09,895 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:09,895 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:09,905 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:09,905 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:09,905 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:09,954 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:09,954 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:09,954 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:09,992 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:09,992 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:09,992 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:09,998 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:09,998 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:09,998 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:10,009 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:10,009 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:10,009 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:10,019 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:10,019 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:10,019 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:10,020 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:10,020 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:10,020 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:10,021 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:10,021 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:10,021 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:10,021 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:10,021 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:10,021 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:10,022 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:10,023 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:10,024 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:10,024 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:10,024 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:10,024 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:10,024 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:10,024 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:12,703 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:12,703 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:12,703 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:12,713 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:12,713 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:12,713 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:12,725 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:12,725 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:12,725 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:12,761 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:12,761 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:12,761 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:12,767 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:12,767 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:12,767 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:12,777 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:12,777 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:12,777 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:12,784 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:12,784 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:12,784 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:12,786 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:12,786 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:12,786 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:12,786 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:12,786 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:12,786 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:12,787 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:12,788 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:12,788 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:12,788 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:12,789 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:12,790 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:12,790 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:12,790 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:12,790 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:12,790 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:12,790 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:12,795 -Logger name: Image_class- Function: Mix_Images - Line number : 198 - Level Name : INFO - massege :  component1 : Phase and component2: Magnitude  has been selected  
+2023-05-13 00:00:12,795 -Logger name: Image_class- Function: Mix_Images - Line number : 198 - Level Name : INFO - massege :  component1 : Phase and component2: Magnitude  has been selected  
+2023-05-13 00:00:12,795 -Logger name: Image_class- Function: Mix_Images - Line number : 198 - Level Name : INFO - massege :  component1 : Phase and component2: Magnitude  has been selected  
+2023-05-13 00:00:12,797 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:12,797 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:12,797 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:12,798 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:12,798 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:12,798 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:14,636 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:14,636 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:14,636 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:14,649 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:14,649 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:14,649 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:14,659 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:14,659 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:14,659 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:14,693 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:14,693 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:14,693 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:14,699 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:14,699 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:14,699 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:14,711 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:14,711 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:14,711 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:14,718 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:14,718 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:14,718 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:14,719 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:14,720 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:14,721 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:14,726 -Logger name: Image_class- Function: Mix_Images - Line number : 233 - Level Name : INFO - massege :  component1 : Phase and component2: Uniform magnitude  has been selected  
+2023-05-13 00:00:14,726 -Logger name: Image_class- Function: Mix_Images - Line number : 233 - Level Name : INFO - massege :  component1 : Phase and component2: Uniform magnitude  has been selected  
+2023-05-13 00:00:14,726 -Logger name: Image_class- Function: Mix_Images - Line number : 233 - Level Name : INFO - massege :  component1 : Phase and component2: Uniform magnitude  has been selected  
+2023-05-13 00:00:14,730 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:14,730 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:14,730 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:14,733 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:14,733 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:14,733 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:16,437 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:16,437 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:16,437 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:16,450 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:16,450 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:16,450 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:16,464 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:16,464 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:16,464 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:16,502 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:16,502 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:16,502 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:16,507 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:16,507 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:16,507 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:16,518 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:16,518 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:16,518 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:16,525 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:16,525 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:16,525 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:16,526 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:16,528 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:16,528 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:16,528 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:16,528 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:16,528 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:16,528 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:16,529 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:16,529 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:16,529 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:16,529 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:16,529 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:16,529 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:16,530 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:16,531 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:16,531 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:16,531 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:16,531 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:16,531 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:16,531 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:18,581 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:18,581 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:18,581 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:18,592 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:18,592 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:18,592 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:18,605 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:18,605 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:18,605 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:18,639 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:18,639 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:18,639 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:18,646 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:18,646 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:18,646 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:18,657 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:18,657 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:18,657 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:18,664 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:18,664 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:18,664 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:18,665 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:18,665 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:18,665 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:18,665 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:18,665 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:18,665 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:18,666 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:18,668 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:18,669 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:18,669 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:18,669 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:18,669 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:18,669 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:18,669 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:18,670 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:18,670 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:18,670 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:20,291 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:20,291 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:20,291 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:20,302 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:20,302 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:20,302 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:20,315 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:20,315 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:20,315 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:20,347 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:20,347 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:20,347 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:20,353 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:20,353 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:20,353 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:20,365 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:20,365 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:20,365 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:20,371 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:20,371 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:20,371 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:20,372 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:20,372 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:20,372 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:20,373 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:20,374 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:20,374 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:20,374 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:20,374 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:20,374 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:20,374 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:20,375 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:20,376 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:20,376 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:20,376 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:20,376 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:20,376 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:20,376 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:21,995 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:21,995 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:21,995 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:22,006 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:22,006 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:22,006 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:22,020 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:22,020 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:22,020 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:22,053 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:22,053 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:22,053 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:22,060 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:22,060 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:22,060 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:22,068 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:22,068 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:22,068 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:22,079 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:22,079 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:22,079 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:22,083 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:22,083 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:22,083 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:22,094 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:22,094 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:22,094 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:22,102 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:22,102 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:22,102 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:22,123 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:22,123 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:22,123 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:22,130 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:22,130 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:22,130 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:22,144 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:22,144 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:22,144 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:22,149 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:22,149 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:22,149 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:22,149 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:22,149 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:22,149 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:22,150 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:22,150 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:22,150 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:22,151 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:22,151 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:22,151 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:22,151 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:22,151 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:22,151 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:22,152 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:22,152 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:22,152 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:23,988 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:23,988 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:23,988 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:23,997 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:23,997 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:23,997 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:24,012 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:24,012 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:24,012 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:24,045 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:24,045 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:24,045 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:24,050 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:24,050 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:24,050 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:24,060 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:24,060 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:24,060 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:24,069 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:24,069 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:24,069 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:24,070 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:24,070 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:24,070 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:24,071 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:24,072 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:24,072 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:24,072 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:24,072 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:24,072 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:24,072 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:24,073 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:24,074 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:24,074 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:24,074 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:24,074 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:24,074 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:24,074 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:24,077 -Logger name: Image_class- Function: Mix_Images - Line number : 209 - Level Name : INFO - massege :  component1 : Imaginary and component2: Real  has been selected  
+2023-05-13 00:00:24,077 -Logger name: Image_class- Function: Mix_Images - Line number : 209 - Level Name : INFO - massege :  component1 : Imaginary and component2: Real  has been selected  
+2023-05-13 00:00:24,077 -Logger name: Image_class- Function: Mix_Images - Line number : 209 - Level Name : INFO - massege :  component1 : Imaginary and component2: Real  has been selected  
+2023-05-13 00:00:24,083 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:24,083 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:24,083 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:24,087 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:24,087 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:24,087 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:28,045 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:28,045 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:28,045 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:28,058 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:28,058 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:28,058 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:28,072 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:28,072 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:28,072 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:28,103 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:28,103 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:28,103 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:28,111 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:28,111 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:28,111 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:28,125 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:28,125 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:28,125 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:28,132 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:28,132 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:28,132 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:28,133 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:28,134 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:28,135 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:28,136 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:28,136 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:28,136 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:28,136 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:28,136 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:28,136 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:28,137 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:28,137 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:28,137 -Logger name: Image_class- Function: Mix_Images - Line number : 249 - Level Name : WARNING - massege :  Invalid Combination  
+2023-05-13 00:00:30,836 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:30,836 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:30,836 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:30,851 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:30,851 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:30,851 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:30,863 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:30,863 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:30,863 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:30,899 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:30,899 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:30,899 -Logger name: Image_class- Function: __init__ - Line number : 24 - Level Name : INFO - massege : ______new rerun___ 
+2023-05-13 00:00:30,905 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:30,905 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:30,905 -Logger name: Image_class- Function: __init__ - Line number : 51 - Level Name : INFO - massege : object image has been created 
+2023-05-13 00:00:30,916 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:30,916 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:30,916 -Logger name: Image_class- Function: display_component - Line number : 129 - Level Name : INFO - massege :  component FT Magnitude has been displayed  
+2023-05-13 00:00:30,924 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:30,924 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:30,924 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:30,926 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:30,926 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:30,926 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:30,926 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:30,926 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:30,926 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:30,927 -Logger name: Image_class- Function: get_component - Line number : 93 - Level Name : INFO - massege :  component Magnitude has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 96 - Level Name : INFO - massege :  component Phase has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 99 - Level Name : INFO - massege :  component Real has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 102 - Level Name : INFO - massege :  component Imaginary has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 108 - Level Name : INFO - massege :  component Uniform phase has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:30,928 -Logger name: Image_class- Function: get_component - Line number : 105 - Level Name : INFO - massege :  component Uniform magnitude has been called  
+2023-05-13 00:00:30,932 -Logger name: Image_class- Function: Mix_Images - Line number : 193 - Level Name : INFO - massege :  component1 : Magnitude and component2: Phase  has been selected  
+2023-05-13 00:00:30,932 -Logger name: Image_class- Function: Mix_Images - Line number : 193 - Level Name : INFO - massege :  component1 : Magnitude and component2: Phase  has been selected  
+2023-05-13 00:00:30,932 -Logger name: Image_class- Function: Mix_Images - Line number : 193 - Level Name : INFO - massege :  component1 : Magnitude and component2: Phase  has been selected  
+2023-05-13 00:00:30,936 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:30,936 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:30,936 -Logger name: Image_class- Function: inverse_fourier_image - Line number : 150 - Level Name : INFO - massege : inversefourier has been called 
+2023-05-13 00:00:30,937 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:30,937 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
+2023-05-13 00:00:30,937 -Logger name: Image_class- Function: Mix_Images - Line number : 253 - Level Name : INFO - massege :  image combined succesfully  
