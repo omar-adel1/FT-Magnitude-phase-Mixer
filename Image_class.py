@@ -65,7 +65,8 @@ class Images:
         if component == "Magnitude" :
             # magnitude_normalized = cv2.normalize(self.magnitude, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
             # return magnitude_normalized
-            return self.magnitude
+            return np.abs(self.fourier_shift)
+            # return self.magnitude
         
         elif component == "Phase" :
             # phase_normalized = cv2.normalize(self.phase, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
