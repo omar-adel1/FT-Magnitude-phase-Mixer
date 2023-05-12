@@ -5,37 +5,47 @@ import logging
 
 class Images:
     
-    def __init__(self,image_path = None) :
+    def __init__(self, image_path=None, x=0):
         
         self.imagepath = image_path 
-        self.is_first_image = True
+        self.is_first_image = False
+        
         if image_path is not None:
+            self.image_read = cv2.imdecode(np.frombuffer(image_path.read(), np.uint8), cv2.IMREAD_GRAYSCALE)
+            # if x == 1:
+            #     self.original_shape_1 = self.image_read.shape  # save the original shape
+            # else:
+            #     self.original_shape_2 = self.image_read.shape  # save the original shape
+            self.image_read = cv2.resize(self.image_read, (190, 190))
             
-            self.image_read = cv2.imdecode(np.frombuffer(image_path.read(), np.uint8),cv2.IMREAD_GRAYSCALE)
-            self.image_read = cv2.resize(self.image_read,(190,190))
-            self.img_shape = self.image_read.shape
-            #Calculating Fourier transform of image
+            # Calculating Fourier transform of image
             self.ft = np.fft.fft2(self.image_read)
             self.fourier_shift = np.fft.fftshift(self.ft)
-            self.magnitude =np.multiply( np.log10(1+np.abs(self.fourier_shift)),20)
-           # self.magnitude = np.abs(self.fourier_shift)
+            self.magnitude = np.multiply(np.log10(1+np.abs(self.fourier_shift)), 20)
             self.phase = np.angle(self.fourier_shift)
             self.real = np.real(self.fourier_shift)
             self.imaginary = np.imag(self.fourier_shift)
             self.uniform_magnitude = np.ones_like(self.magnitude)
             self.uniform_phase = np.zeros_like(self.phase)
+
     """
     Function which checks size of the two images
      Check the size of the second image
      check_size(img1, image_path=file2)          
     """ 
     
-             
+
+    def set_first_image(self):
+        self.is_first_image = True
+        
     def set_second_image(self):
         self.is_first_image = False
     
         
     @staticmethod
+    # def check_size(self):
+    #     if self.original_shape_1 != self.original_shape_2:
+    #         st.warning("Two images not same size")
     def check_size(image_1,image_2) :
         if image_1 and image_2 :
             
