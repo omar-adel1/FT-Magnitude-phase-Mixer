@@ -247,7 +247,7 @@ class Images:
         else:
            st.warning("Invalid Combination")
            logger.warning(' Invalid Combination ')
-           return
+           return None
         Image_combined = Images.inverse_fourier_image(Mixed_FT)
         Image_combined = cv2.normalize(Image_combined, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
         logger.info(' image combined succesfully ')

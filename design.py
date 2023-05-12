@@ -123,7 +123,8 @@ def main():
                     output_1_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 2":
                     output_1_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
-                st.image(output_1_image, clamp= True)
+                if output_1_image is not None:
+                    st.image(output_1_image, clamp= True)
         with output_2:
             st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
             waiting_image_6 = Image.open("placeholder.png").resize((190, 190))
@@ -136,4 +137,6 @@ def main():
                     output_2_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 2":
                     output_2_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
-                st.image(output_2_image, clamp= True)
+                if output_2_image is not None:
+                        
+                  st.image(output_2_image, clamp= True)
