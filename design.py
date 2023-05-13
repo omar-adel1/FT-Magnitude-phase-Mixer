@@ -10,12 +10,12 @@ formatter = logging.Formatter('%(asctime)s -Logger name: %(name)s- Function: %(f
 file_handler = logging.FileHandler('design.log',mode='w')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
-# initialize session state
-if "output_1_image" not in st.session_state:
-    st.session_state.output_1_image = None
-if "output_2_image" not in st.session_state:
-    st.session_state.output_2_image = None
 def main():
+    # initialize session state
+    if "output_1_image" not in st.session_state:
+        st.session_state.output_1_image = None
+    if "output_2_image" not in st.session_state:
+        st.session_state.output_2_image = None
     logger.warning("__________Streamlit rerun__________")
     st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="🎨", layout="wide")
     with open('style.css') as f:
