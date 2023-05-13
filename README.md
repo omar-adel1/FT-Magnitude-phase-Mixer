@@ -34,7 +34,8 @@ To start deployment
 ```bash
   streamlit run streamlit_app.py
 ```
-
+## Design
+![main widow](./Images_Task/Main_UI.png)
 
 ## Authors
 
