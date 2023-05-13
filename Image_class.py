@@ -61,17 +61,6 @@ class Images:
              
     def set_second_image(self):
         self.is_first_image = False
-    
-        
-    @staticmethod
-    def check_size(image_1,image_2):
-        if image_1 and image_2 :
-            
-            if image_1.img_shape != image_2.img_shape:
-                st.warning("Two images not same size")
-                logger.warning("Two images not same size")
-                return False
-            return True
       
     def get_component(self,component):
         """
