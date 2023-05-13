@@ -10,6 +10,11 @@ formatter = logging.Formatter('%(asctime)s -Logger name: %(name)s- Function: %(f
 file_handler = logging.FileHandler('design.log',mode='w')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
+# initialize session state
+if "output_1_image" not in st.session_state:
+    st.session_state.output_1_image = None
+if "output_2_image" not in st.session_state:
+    st.session_state.output_2_image = None
 def main():
     logger.warning("__________Streamlit rerun__________")
     st.set_page_config(page_title="FT-Magnitude-phase-Mixer", page_icon="🎨", layout="wide")
@@ -18,7 +23,6 @@ def main():
     # Add the content inside the container
     # static_picture, dynamic_pic, right_side = st.columns([2,2,4.5])
     left_side, right_side = st.columns([2,2.2])
-
     with left_side:
         st.markdown("<h3>Image 1</h3>", unsafe_allow_html=True)
         static_picture, dynamic_pic = st.columns(2)
@@ -107,9 +111,14 @@ def main():
             waiting_image_displayed_3 = st.image(waiting_image_3)
             if pic_2_upload is not None:
                     # Remove the "waiting" image
-                logger.info("Picture 2 Uploaded")
                 waiting_image_displayed_3.empty()
                 image_2 = Images(pic_2_upload)
+                if pic_1_upload is not None:
+                    if image_1.img_shape != image_2.img_shape:
+                        logger.info("Picture is not the same size")
+                        st.warning("Not the same size")
+                        return
+                logger.info("Picture 2 Uploaded")
                 st.image(image_2.image_read)
         with dynamic_pic_2:
             component_2 = st.selectbox(label="",key="component_2", options=[
@@ -133,14 +142,15 @@ def main():
                 waiting_image_displayed_5.empty()
                 logger.info("Mixer of component 1 and component 2 being displayed in Output 1")
                 if image_choose_1 != image_choose_2:
-                    output_1_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+                    st.session_state.output_1_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 1":
-                    output_1_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
+                    st.session_state.output_1_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 2":
-                    output_1_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
-                if output_1_image is not None:
-                    st.image(output_1_image, clamp= True)
-                logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))
+                    st.session_state.output_1_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+            if st.session_state.output_1_image is not None:
+                waiting_image_displayed_5.empty()
+                st.image(st.session_state.output_1_image, clamp= True)
+            logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))
         with output_2:
             st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
             waiting_image_6 = Image.open("placeholder.png").resize((190, 190))
@@ -149,12 +159,12 @@ def main():
                 waiting_image_displayed_6.empty()
                 logger.info("Mixer of component 1 and component 2 being displayed in Output 2")
                 if image_choose_1 != image_choose_2:
-                    output_2_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+                    st.session_state.output_2_image = Images.Mix_Images(image_1, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 1":
-                    output_2_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
+                    st.session_state.output_2_image = Images.Mix_Images(image_1, image_1, mode_1, mode_2, selected_value_1, selected_value_2)
                 elif image_choose_1 == image_choose_2 == "Image 2":
-                    output_2_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
-                if output_2_image is not None:
-                        
-                  st.image(output_2_image, clamp= True)
-                logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))
+                    st.session_state.output_2_image = Images.Mix_Images(image_2, image_2, mode_1, mode_2, selected_value_1, selected_value_2)
+            if st.session_state.output_2_image is not None:
+                waiting_image_displayed_6.empty()
+                st.image(st.session_state.output_2_image, clamp= True)
+            logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))
