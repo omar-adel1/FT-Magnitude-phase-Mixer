@@ -10,6 +10,7 @@ The Fourier transform is a crucial tool in signal processing, and this project a
 - [Design](#Design)
 - [Features](#Features)
 - [Authors](#Authors)
+- [Acknowledgements](#Acknowledgements)
 
 ## Built with
 
