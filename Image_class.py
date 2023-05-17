@@ -172,9 +172,15 @@ class Images:
         Mix_ratio_2 = Mix_ratio_2 / 100
 
         # Mix the components based on user-specified ratios and components
-        if component_image_1 in ["Real", "Imaginary"] and component_image_2 in ["Real", "Imaginary"]:
+        if component_image_1 in ["Real"] and component_image_2 in ["Imaginary"]:
             New_real = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components[component_image_1][1] * (1 - Mix_ratio_1)
             New_Imag = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components[component_image_2][0] * (1 - Mix_ratio_2)
+            Mixed_FT = New_real + 1j * New_Imag
+            logger.info(f"Component 1: {component_image_1} and Component 2: {component_image_2} have been selected.")
+
+        elif component_image_1 in ["Imaginary"] and component_image_2 in ["Real"]:
+            New_Imag = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components[component_image_1][1] * (1-Mix_ratio_1)
+            New_real = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components[component_image_2][0] * (1-Mix_ratio_2)
             Mixed_FT = New_real + 1j * New_Imag
             logger.info(f"Component 1: {component_image_1} and Component 2: {component_image_2} have been selected.")
 
