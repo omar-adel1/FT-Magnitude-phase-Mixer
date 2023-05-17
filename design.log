@@ -1,112 +1,390 @@
-2023-05-13 09:54:41,185 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:54:41,233 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:54:41,305 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:54:41,321 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:02,530 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:02,584 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:02,726 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:02,746 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:54:41,329 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:02,760 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:31,463 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:31,503 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:31,575 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:31,599 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:05,815 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:05,862 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:05,897 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:05,904 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:05,983 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:06,000 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:31,607 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:06,017 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:42,647 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:42,679 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:42,711 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:42,719 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:42,775 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:42,783 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:08,341 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:08,373 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:08,412 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:08,418 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:08,492 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:08,510 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:08,518 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:08,534 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:08,591 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:42,791 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:08,608 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:44,223 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:44,263 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:44,303 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:44,303 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:44,383 -Logger name: design- Function: main - Line number : 121 - Level Name : INFO - massege : Picture 2 Uploaded 
-2023-05-13 09:56:44,399 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:44,407 -Logger name: design- Function: main - Line number : 134 - Level Name : INFO - massege : Image 2 component displayed 
-2023-05-13 09:56:44,415 -Logger name: design- Function: main - Line number : 143 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:44,439 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:10,156 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:10,185 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:10,215 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:10,222 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:10,310 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:10,331 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:10,340 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:10,356 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:10,377 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Phase 
+ Component 1 Slider value : 50 , Component 2 Slider value: 50 
+2023-05-17 23:22:10,394 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Phase 
+ Component 1 Slider value : 50 , Component 2 Slider value: 50 
+2023-05-17 23:22:11,898 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:11,931 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:11,962 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:11,968 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:12,043 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:12,060 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:12,067 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:12,088 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:12,126 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 50 
+2023-05-17 23:22:12,141 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 50 
+2023-05-17 23:22:14,007 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:14,087 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:14,125 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:14,132 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:14,204 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:14,232 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:14,251 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:14,266 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:14,301 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:14,315 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,619 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:15,649 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:15,675 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,681 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:15,748 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:15,762 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,768 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:15,786 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:15,848 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,862 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,248 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:19,283 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:19,312 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,316 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:19,384 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:19,398 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,406 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:19,416 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:19,447 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,480 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,473 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:21,502 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:21,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,531 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:21,590 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:21,605 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,610 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:21,622 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:21,634 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,649 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,511 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:23,540 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:23,572 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,577 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:23,634 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:23,645 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,651 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:23,668 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:23,693 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,702 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+ being displayed in Output 1 
+2023-05-17 23:22:14,301 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:14,315 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,619 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:15,649 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:15,675 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,681 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:15,748 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:15,762 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,768 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:15,786 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:15,848 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,862 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,248 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:19,283 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:19,312 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,316 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:19,384 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:19,398 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,406 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:19,416 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:19,447 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,480 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,473 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:21,502 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:21,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,531 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:21,590 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:21,605 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,610 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:21,622 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:21,634 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,649 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,511 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:23,540 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:23,572 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,577 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:23,634 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:23,645 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,651 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:23,668 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:23,693 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,702 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2023-05-17 23:22:02,530 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:02,584 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:02,726 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:02,746 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:44,455 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:02,760 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:47,103 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,215 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,231 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:47,351 -Logger name: design- Function: main - Line number : 118 - Level Name : INFO - massege : Picture is not the same size 
-2023-05-13 09:56:49,479 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,671 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,687 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:49,711 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,719 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:49,870 -Logger name: design- Function: main - Line number : 121 - Level Name : INFO - massege : Picture 2 Uploaded 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 134 - Level Name : INFO - massege : Image 2 component displayed 
-2023-05-13 09:56:49,894 -Logger name: design- Function: main - Line number : 143 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:49,950 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:05,815 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:05,862 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:05,897 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:05,904 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:05,983 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:06,000 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:49,966 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:06,017 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,466 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:58,498 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,570 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,586 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:08,341 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:08,373 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:08,412 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:08,418 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:08,492 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:08,510 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:08,518 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:08,534 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:08,591 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,594 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-17 23:22:08,608 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
- INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:44,439 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
+2023-05-17 23:22:10,156 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:10,185 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:10,215 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:10,222 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:10,310 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:10,331 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:10,340 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:10,356 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:10,377 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:44,455 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
+2023-05-17 23:22:10,394 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:47,103 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,215 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,231 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:47,351 -Logger name: design- Function: main - Line number : 118 - Level Name : INFO - massege : Picture is not the same size 
-2023-05-13 09:56:49,479 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,671 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,687 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:49,711 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,719 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:49,870 -Logger name: design- Function: main - Line number : 121 - Level Name : INFO - massege : Picture 2 Uploaded 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 134 - Level Name : INFO - massege : Image 2 component displayed 
-2023-05-13 09:56:49,894 -Logger name: design- Function: main - Line number : 143 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:49,950 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
+2023-05-17 23:22:11,898 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:11,931 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:11,962 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:11,968 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:12,043 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:12,060 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:12,067 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:12,088 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:12,126 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:49,966 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
+2023-05-17 23:22:12,141 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,466 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:58,498 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,570 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,586 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,594 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
+2023-05-17 23:22:14,007 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:14,087 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:14,125 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:14,132 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:14,204 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:14,232 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:14,251 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:14,266 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:14,301 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:14,315 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,619 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:15,649 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:15,675 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,681 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:15,748 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:15,762 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,768 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:15,786 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:15,848 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,862 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,248 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:19,283 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:19,312 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,316 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:19,384 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:19,398 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,406 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:19,416 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:19,447 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,480 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,473 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:21,502 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:21,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,531 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:21,590 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:21,605 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,610 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:21,622 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:21,634 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,649 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,511 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:23,540 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:23,572 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,577 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:23,634 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:23,645 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,651 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:23,668 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:23,693 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,702 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+ being displayed in Output 1 
+2023-05-17 23:22:14,301 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:14,315 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 50 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,619 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:15,649 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:15,675 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,681 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:15,748 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:15,762 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:15,768 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:15,786 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:15,848 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:15,862 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,248 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:19,283 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:19,312 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,316 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:19,384 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:19,398 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:19,406 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:19,416 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:19,447 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:19,480 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Imaginary 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,473 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:21,502 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:21,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,531 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:21,590 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:21,605 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:21,610 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:21,622 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:21,634 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:21,649 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Real , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,511 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-17 23:22:23,540 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-17 23:22:23,572 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,577 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-17 23:22:23,634 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-17 23:22:23,645 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-17 23:22:23,651 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-17 23:22:23,668 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-17 23:22:23,693 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
+2023-05-17 23:22:23,702 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Imaginary , Component 2 mode: Real 
+ Component 1 Slider value : 0 , Component 2 Slider value: 100 
