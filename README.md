@@ -7,8 +7,7 @@ The Fourier transform is a crucial tool in signal processing, and this project a
 
 - [Built with](#Built-with)
 - [Deployment](#Deployment)
-- [Design](#Design)
-- [Features](#Features)
+- [Preview](#Preview)
 - [Authors](#Authors)
 - [Acknowledgements](#Acknowledgements)
 
@@ -35,8 +34,8 @@ To start deployment
 ```bash
   streamlit run streamlit_app.py
 ```
-## Design
-![main widow](./Images_Task/Main_UI.png)
+## Preview
+![main widow](./Preview/Review.gif)
 
 ## Authors
 
