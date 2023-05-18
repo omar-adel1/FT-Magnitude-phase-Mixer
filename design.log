@@ -1,1 +1,9 @@
 2023-05-18 23:14:25,745 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-18 23:14:26,613 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-18 23:14:26,715 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-18 23:14:26,728 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Magnitude , Component 2 mode: Phase 
+ Component 1 Slider value : 50 , Component 2 Slider value: 50 
+2023-05-18 23:14:26,740 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 mode : Magnitude , Component 2 mode: Phase 
+ Component 1 Slider value : 50 , Component 2 Slider value: 50 
