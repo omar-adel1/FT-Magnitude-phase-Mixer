@@ -50,17 +50,7 @@ class Images:
             self.uniform_phase = np.zeros_like(self.phase)
             logger.info("object image has been created") 
           
-    """
-    Function which checks size of the two images
-     Check the size of the second image
-     check_size(img1, image_path=file2)          
-    """ 
-    
-    def set_first_image(self):
-        self.is_first_image = True
-             
-    def set_second_image(self):
-        self.is_first_image = False
+
       
     def get_component(self,component):
         """
