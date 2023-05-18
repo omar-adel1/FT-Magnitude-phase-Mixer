@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import streamlit as st
 import logging 
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s -Logger name: %(name)s- Function: %(funcName)s - Line number : %(lineno)d - Level Name : %(levelname)s - massege : %(message)s ')
 file_handler = logging.FileHandler('image_class.log',mode='w')
@@ -10,7 +10,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 class Images:
     
-    def _init_(self,image_path = None):
+    def __init__(self,image_path = None):
         """
         Initializes an object of the class and sets the input image path if it is provided.
         If an image path is provided, the function reads the image from the provided path, 
@@ -21,7 +21,7 @@ class Images:
         transformation to enhance visibility. The uniform magnitude and phase are set to ones 
         and zeros, respectively.
         """
-        logger.info("___new rerun__")
+        logger.info("______new rerun___")
         self.imagepath = image_path
         self.is_first_image = False
     
