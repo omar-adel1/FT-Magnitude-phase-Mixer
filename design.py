@@ -62,7 +62,8 @@ def main():
             logger.info("Picture 1 Component selected is:{}".format(component_1))
             if pic_1_upload is not None:
                 waiting_image_displayed_2.empty()
-                image_1.display_component(component_1)
+                image_component_1 = image_1.display_component(component_1)
+                st.image(image_component_1, clamp = True)
                 logger.info("Image 1 component displayed")
     with right_side:
         mixer_outputs, selected_output=st.columns([1,2])
@@ -130,12 +131,13 @@ def main():
             logger.info("Picture 2 Component selected is:{}".format(component_1))
             if pic_2_upload is not None:
                 waiting_image_displayed_4.empty()
-                image_2.display_component(component_2)
+                image_component_2 = image_2.display_component(component_2)
+                st.image(image_component_2, clamp = True)
                 logger.info("Image 2 component displayed")
     with right_side_2:
         output_1, output_2 = st.columns(2)
         with output_1:
-            st.markdown("<h3>OutPut 1</h3>", unsafe_allow_html=True)
+            st.markdown("<h3>Output 1</h3>", unsafe_allow_html=True)
             waiting_image_5 = Image.open("placeholder.png").resize((190, 190))
             waiting_image_displayed_5 = st.image(waiting_image_5)
             if mixer_components_1 == "Output 1" and pic_2_upload is not None and pic_1_upload is not None:
@@ -152,7 +154,7 @@ def main():
                 st.image(st.session_state.output_1_image, clamp= True)
             logger.info("Component 1 image : {} , Component 2 image: {} \n Component 1 mode : {} , Component 2 mode: {} \n Component 1 Slider value : {} , Component 2 Slider value: {}".format(image_choose_1, image_choose_2, mode_1, mode_2, selected_value_1, selected_value_2))
         with output_2:
-            st.markdown("<h3>OutPut 2</h3>", unsafe_allow_html=True)
+            st.markdown("<h3>Output 2</h3>", unsafe_allow_html=True)
             waiting_image_6 = Image.open("placeholder.png").resize((190, 190))
             waiting_image_displayed_6 = st.image(waiting_image_6)
             if mixer_components_1 == "Output 2" and pic_2_upload is not None and pic_1_upload is not None:

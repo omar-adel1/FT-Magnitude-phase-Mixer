@@ -1,112 +1,56 @@
-2023-05-13 09:54:41,185 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:54:41,233 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:54:41,305 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:54:41,321 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:11,357 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-18 22:32:11,388 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-18 22:32:11,451 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-18 22:32:11,458 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:54:41,329 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:11,467 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:31,463 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:31,503 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:31,575 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:31,599 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:14,177 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-18 22:32:14,202 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-18 22:32:14,239 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-18 22:32:14,246 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-18 22:32:14,302 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-18 22:32:14,311 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:31,607 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:14,320 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:42,647 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:42,679 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:42,711 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:42,719 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:42,775 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:42,783 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:15,553 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-18 22:32:15,591 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-18 22:32:15,618 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-18 22:32:15,624 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-18 22:32:15,707 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-18 22:32:15,721 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-18 22:32:15,728 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-18 22:32:15,740 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-18 22:32:15,761 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:42,791 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:15,769 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
  Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:44,223 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:44,263 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:44,303 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:44,303 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:44,383 -Logger name: design- Function: main - Line number : 121 - Level Name : INFO - massege : Picture 2 Uploaded 
-2023-05-13 09:56:44,399 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:44,407 -Logger name: design- Function: main - Line number : 134 - Level Name : INFO - massege : Image 2 component displayed 
-2023-05-13 09:56:44,415 -Logger name: design- Function: main - Line number : 143 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:44,439 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+2023-05-18 22:32:18,137 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-18 22:32:18,174 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-18 22:32:18,206 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-18 22:32:18,209 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-18 22:32:18,279 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-18 22:32:18,289 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-18 22:32:18,292 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-18 22:32:18,302 -Logger name: design- Function: main - Line number : 145 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
+2023-05-18 22:32:18,326 -Logger name: design- Function: main - Line number : 155 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:44,455 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
+ Component 1 Slider value : 50 , Component 2 Slider value: 51 
+2023-05-18 22:32:18,336 -Logger name: design- Function: main - Line number : 172 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
  Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:47,103 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,215 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,231 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:47,351 -Logger name: design- Function: main - Line number : 118 - Level Name : INFO - massege : Picture is not the same size 
-2023-05-13 09:56:49,479 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,671 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,687 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:49,711 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,719 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:49,870 -Logger name: design- Function: main - Line number : 121 - Level Name : INFO - massege : Picture 2 Uploaded 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 134 - Level Name : INFO - massege : Image 2 component displayed 
-2023-05-13 09:56:49,894 -Logger name: design- Function: main - Line number : 143 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:49,950 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:49,966 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,466 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:58,498 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,570 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,586 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,594 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
- INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:44,439 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:44,455 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:47,103 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,215 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:47,231 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:47,279 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:47,351 -Logger name: design- Function: main - Line number : 118 - Level Name : INFO - massege : Picture is not the same size 
-2023-05-13 09:56:49,479 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,527 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,671 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:49,687 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
-2023-05-13 09:56:49,711 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,719 -Logger name: design- Function: main - Line number : 66 - Level Name : INFO - massege : Image 1 component displayed 
-2023-05-13 09:56:49,870 -Logger name: design- Function: main - Line number : 121 - Level Name : INFO - massege : Picture 2 Uploaded 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:49,886 -Logger name: design- Function: main - Line number : 134 - Level Name : INFO - massege : Image 2 component displayed 
-2023-05-13 09:56:49,894 -Logger name: design- Function: main - Line number : 143 - Level Name : INFO - massege : Mixer of component 1 and component 2 being displayed in Output 1 
-2023-05-13 09:56:49,950 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:49,966 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,466 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
-2023-05-13 09:56:58,498 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,570 -Logger name: design- Function: main - Line number : 130 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
-2023-05-13 09:56:58,586 -Logger name: design- Function: main - Line number : 153 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
-2023-05-13 09:56:58,594 -Logger name: design- Function: main - Line number : 170 - Level Name : INFO - massege : Component 1 image : Image 1 , Component 2 image: Image 2 
- Component 1 mode : Magnitude , Component 2 mode: Phase 
- Component 1 Slider value : 50 , Component 2 Slider value: 50 
+ Component 1 Slider value : 50 , Component 2 Slider value: 51 
+2023-05-18 22:32:18,567 -Logger name: design- Function: main - Line number : 19 - Level Name : WARNING - massege : __________Streamlit rerun__________ 
+2023-05-18 22:32:18,602 -Logger name: design- Function: main - Line number : 38 - Level Name : INFO - massege : Picture 1 Uploaded 
+2023-05-18 22:32:18,626 -Logger name: design- Function: main - Line number : 62 - Level Name : INFO - massege : Picture 1 Component selected is:FT Magnitude 
+2023-05-18 22:32:18,635 -Logger name: design- Function: main - Line number : 67 - Level Name : INFO - massege : Image 1 component displayed 
+2023-05-18 22:32:18,703 -Logger name: design- Function: main - Line number : 122 - Level Name : INFO - massege : Picture 2 Uploaded 
+2023-05-18 22:32:18,718 -Logger name: design- Function: main - Line number : 131 - Level Name : INFO - massege : Picture 2 Component selected is:FT Magnitude 
+2023-05-18 22:32:18,725 -Logger name: design- Function: main - Line number : 136 - Level Name : INFO - massege : Image 2 component displayed 
+2023-05-18 22:32:18,736 -Logger name
