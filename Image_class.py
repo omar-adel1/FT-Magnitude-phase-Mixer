@@ -140,6 +140,14 @@ class Images:
         logger.info('inversefourier has been called')
         return Inverse_fourier_image
     
+   # def set_option():
+        
+    
+    # @staticmethod
+    # def mix_components(component_1,component_2,Ratio):
+    #     mixed_component = component_1*Ratio + component_2*(1-Ratio)
+    #     return mixed_component
+        
 
     @staticmethod
     def Mix_Images(img_1: 'Images', img_2: 'Images', component_image_1: str, component_image_2: str, Mix_ratio_1: float, Mix_ratio_2: float):
@@ -172,30 +180,26 @@ class Images:
         Mix_ratio_2 = Mix_ratio_2 / 100
 
         # Mix the components based on user-specified ratios and components
-        if component_image_1 in ["Real"] and component_image_2 in ["Imaginary"]:
+        if (component_image_1 in ["Real"] and component_image_2 in ["Imaginary"]) or  (component_image_1 in ["Imaginary"] and component_image_2 in ["Real"]):
+            
+            
             New_real = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components[component_image_1][1] * (1 - Mix_ratio_1)
             New_Imag = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components[component_image_2][0] * (1 - Mix_ratio_2)
-            Mixed_FT = New_real + 1j * New_Imag
+            ratio_tuples = [New_real, New_Imag] if component_image_1 == "Real" else [New_Imag, New_real]
+            Mixed_FT = ratio_tuples[0] + 1j * ratio_tuples[1]
             logger.info(f"Component 1: {component_image_1} and Component 2: {component_image_2} have been selected.")
 
-        elif component_image_1 in ["Imaginary"] and component_image_2 in ["Real"]:
-            New_Imag = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components[component_image_1][1] * (1-Mix_ratio_1)
-            New_real = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components[component_image_2][0] * (1-Mix_ratio_2)
-            Mixed_FT = New_real + 1j * New_Imag
-            logger.info(f"Component 1: {component_image_1} and Component 2: {component_image_2} have been selected.")
+     
+        elif( component_image_1 in ["Magnitude", "Uniform magnitude"] and component_image_2 in ["Phase", "Uniform phase"]) or (component_image_1 in ["Phase", "Uniform phase"] and component_image_2 in ["Magnitude", "Uniform magnitude"]):
+            ratio_tuples = ["Magnitude","Phase"] if component_image_1 in ["Magnitude", "Uniform magnitude"] else ["Phase","Magnitude"]
+            Mixed_Mag = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components[ratio_tuples[0]][1] * (1 - Mix_ratio_1)
 
-        elif component_image_1 in ["Magnitude", "Uniform magnitude"] and component_image_2 in ["Phase", "Uniform phase"]:
-            Mixed_Mag = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components["Magnitude"][1] * (1 - Mix_ratio_1)
-            Mixed_Phase = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components["Phase"][0] * (1 - Mix_ratio_2)
-            Mixed_FT = np.multiply(Mixed_Mag, np.exp(1j * Mixed_Phase))
+            Mixed_Phase = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components[ratio_tuples[1]][0] * (1 - Mix_ratio_2)
+            ratio_tupless = [Mixed_Mag,Mixed_Phase] if component_image_1 in ["Magnitude", "Uniform magnitude"] else [Mixed_Phase,Mixed_Mag]
+            Mixed_FT = np.multiply(ratio_tupless[0], np.exp(1j *ratio_tupless[1]))
             logger.info(f"Component 1: {component_image_1} and Component 2: {component_image_2} have been selected.")
         
-        elif component_image_1 in ["Phase", "Uniform phase"] and component_image_2 in ["Magnitude", "Uniform magnitude"]:
-            Mixed_Mag = Fourier_components[component_image_2][1] * Mix_ratio_2 + Fourier_components["Magnitude"][0] * (1 - Mix_ratio_2)
-            Mixed_Phase = Fourier_components[component_image_1][0] * Mix_ratio_1 + Fourier_components["Phase"][1] * (1 - Mix_ratio_1)
-            Mixed_FT = np.multiply(Mixed_Mag, np.exp(1j * Mixed_Phase))
-            logger.info(f"Component 1: {component_image_1} and Component 2: {component_image_2} have been selected.")
-
+    
         else:
             st.warning("Invalid Combination")
             logger.warning("Invalid Combination")
